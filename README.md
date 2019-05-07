@@ -51,7 +51,7 @@ Expected output sample:
 }
 
 
-Files in the repo:
+- Files in the repo:
 
 Yazzoom.ipynb : the jupyter notebook containing the algorithm and the plots
 
@@ -60,7 +60,7 @@ distance.py : Python file containing a distance function
 main.py : API main file
 
 
-To run the API:
+- To run the API:
 
 Download the anomaly.csv file under Yazzoom/ directory
 
@@ -70,7 +70,8 @@ From a terminal: run $ python3 main.py
 
 Get the API link from the instrutions in the terminal (it should look like: http://127.0.0.1:5000)
 
-To query the API:
+- To query the API:
 
 Send a json object in the expected input format(see Above) through a POST request to API_LINK/DetectAnomalies
 
+- In case there is an error with the request, the API will return a response with a 'status'=1 and 'Error'= the exception causing the error.
