@@ -4,7 +4,9 @@ This repo contains:
 - An algorithm that does anomaly detection, with 2 extra additional approaches.
 - A jupyter notebook that reads this file, detects the anomalies using your algorithm, shows them in a plot and their values.
 - write a script in Python that wraps this algorithm in a REST API which receives its arguments as json and returns the output of your algorithm:
-Expected input sample:
+
+
+- Expected input sample:
 
 { 
 	
@@ -33,7 +35,7 @@ Expected input sample:
 }
 
 
-Expected output sample:
+- Expected output sample:
 
 {
 
