@@ -46,7 +46,7 @@ def receive():
 		return jsonify({"response" : res, "status": status, "error": e})
 	except Exception as e:
 		status = 1
-		return jsonify({"response" : res, "status": status, "error": e.__class__.__name__})
+		return jsonify({"response" : [], "status": status, "error": e.__class__.__name__})
 	
 
 if __name__ == '__main__':
